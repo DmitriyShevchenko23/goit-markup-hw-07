@@ -1,18 +1,18 @@
-.page-footer {
+.page__footer {
   padding: 60px 0;
   background-color: $dark-bg-color;
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
-.address-wrapper {
+.address__wrapper {
   margin-right: 70px;
 }
 .address {
   width: 231px;
 }
-.footer-logo {
+.footer__logo {
   display: block;
   margin-bottom: 20px;
   font-family: raleway, sans-serif;
@@ -23,13 +23,13 @@
   color: $bg-white-color;
   text-decoration: none;
 }
-.address-list {
+.address__list {
   display: inline-block;
 }
-.address-list .address-item + .address-item {
+.address__list .address__item + .address__item {
   margin-top: 9px;
 }
-.address-link {
+.address__link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -39,15 +39,15 @@
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address-link:hover,
-.address-link:focus {
+.address__link:hover,
+.address__link:focus {
   color: $accent-color;
 }
 
 .social {
   margin-right: 93px;
 }
-.social-titel {
+.social__titel {
   margin-bottom: 20px;
   font-style: normal;
   font-weight: 700;
@@ -57,10 +57,10 @@
   text-transform: uppercase;
   color: $primary-white-color;
 }
-.social-item--footer {
+.social__item--footer {
   fill: $primary-white-color;
 }
-.social-link--footer {
+.social__link--footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,14 +72,14 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link--footer:hover,
-.social-link--footer:focus {
+.social__link--footer:hover,
+.social__link--footer:focus {
   background-color: $accent-color;
 }
-.social-item--footer:not(:last-child) {
+.social__item--footer:not(:last-child) {
   margin-right: 10px;
 }
-.footer-social-block {
+.footer__social-block {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,13 +88,13 @@
   border: none;
 }
 
-.subscribe-form {
+.subscribe__form {
   display: flex;
 }
-.subscribe-label {
+.subscribe__label {
   margin-right: 12px;
 }
-.subscribe-input {
+.subscribe__input {
   padding: 15px 0 15px 16px;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -102,7 +102,7 @@
   background-color: inherit;
   color: $primary-white-color;
 }
-.subscribe-button {
+.subscribe__button {
   display: flex;
   align-items: center;
   min-width: 200px;
@@ -119,6 +119,6 @@
   background-color: $accent-color;
   cursor: pointer;
 }
-.icon-send {
+.icon__send {
   margin-left: 10px;
 }
