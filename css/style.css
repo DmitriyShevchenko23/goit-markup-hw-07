@@ -219,8 +219,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
-.container-hero {
-}
+
 .hero-titel {
   margin-top: 0;
   margin-bottom: 30px;
@@ -322,8 +321,7 @@ img {
 .modal-form .modal-form-item + .modal-form-item {
   margin-top: 10px;
 }
-.modal-form {
-}
+
 .form-label {
   margin-bottom: 4px;
 
@@ -566,8 +564,7 @@ img {
 .clients-list .clients-item + .clients-item {
   margin-left: 30px;
 }
-.clients-item {
-}
+
 .clients-link {
   display: flex;
   justify-content: center;
