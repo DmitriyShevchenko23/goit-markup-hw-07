@@ -865,6 +865,10 @@ img {
   display: inline-block;
 }
 
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .address__link {
   font-style: normal;
   font-size: 14px;
@@ -877,10 +881,6 @@ img {
 
 .address__link:hover, .address__link:focus {
   color: #2196f3;
-}
-
-.address__item:not(:last-child) {
-  margin-bottom: 9px;
 }
 
 .join__margin {

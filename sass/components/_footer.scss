@@ -27,9 +27,10 @@
   &__list {
     display: inline-block;
   }
-  &__item{
+  &__item {
     &:not(:last-child) {
-  margin-bottom: 9px;
+      margin-bottom: 9px;
+    }
   }
   &__link {
     font-style: normal;
@@ -93,20 +94,20 @@
   }
 }
 // ------------subsribe---------------------------------
-.subscribe{
-  &__form{
+.subscribe {
+  &__form {
     display: flex;
   }
-  &__label{
+  &__label {
     margin-right: 12px;
   }
-  &__input{
-     padding: 15px 0 15px 16px;
-  width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  background-color: inherit;
-  color: $primary-white-color;
+  &__input {
+    padding: 15px 0 15px 16px;
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: inherit;
+    color: $primary-white-color;
   }
 }
 
