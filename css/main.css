@@ -652,12 +652,8 @@ img {
   background-origin: border-box;
 }
 
-.benefits__list {
+.benefits {
   display: flex;
-}
-
-.benefits__list .benefits__item + .benefits__item {
-  margin-left: 30px;
 }
 
 .benefits__bg {
@@ -669,10 +665,6 @@ img {
   margin-bottom: 30px;
   border-radius: 4px;
   background-color: #f5f4fa;
-}
-
-.benefits__icon {
-  display: flex;
 }
 
 .benefits__titel {
@@ -694,16 +686,16 @@ img {
   letter-spacing: 0.03em;
 }
 
-.jobs__section {
+.benefits .benefits__item + .benefits__item {
+  margin-left: 30px;
+}
+
+.section--pading {
   padding-top: 0;
 }
 
-.jobs__list {
+.jobs {
   display: flex;
-}
-
-.jobs__list .jobs__item + .jobs__item {
-  margin-left: 30px;
 }
 
 .jobs__wrapper {
@@ -728,26 +720,26 @@ img {
   text-transform: uppercase;
 }
 
-.team__section {
+.jobs .jobs__item + .jobs__item {
+  margin-left: 30px;
+}
+
+.section--background {
   background-color: #f5f4fa;
 }
 
-.team__card {
-  padding: 30px 0;
-  background-color: #ffffff;
-}
-
-.team__list {
+.team {
   display: flex;
-}
-
-.team__list .team__item + .team__item {
-  margin-left: 30px;
 }
 
 .team__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team__card {
+  padding: 30px 0;
+  background-color: #ffffff;
 }
 
 .team__name {
@@ -765,6 +757,10 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+}
+
+.team .team__item + .team__item {
+  margin-left: 30px;
 }
 
 .social__list {
