@@ -412,7 +412,7 @@ img {
   color: #2196f3;
 }
 
-.nav__list .nav__item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 

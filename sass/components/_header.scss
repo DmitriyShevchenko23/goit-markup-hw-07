@@ -32,7 +32,6 @@
     display: flex;
     margin-left: 93px;
   }
-
   &__item {
     list-style: none;
   }
@@ -58,10 +57,9 @@
     }
   }
 }
-.nav__list .nav__item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
-
 /* почта+телефон -----------------------------*/
 .contacts {
   display: flex;
@@ -95,15 +93,15 @@
 .icon__mail {
   fill: currentColor;
   margin-right: 10px;
-}
-.icon__mail::before {
-  content: "";
+  &::before {
+    content: "";
+  }
 }
 
 .icon__tel {
   fill: currentColor;
   margin-right: 10px;
-}
-.icon__tel::before {
-  content: "";
+  &::before {
+    content: "";
+  }
 }
