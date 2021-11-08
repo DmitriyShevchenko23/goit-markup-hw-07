@@ -43,8 +43,8 @@
 .address__link:focus {
   color: $accent-color;
 }
-
-.social {
+// --------------------------------------------------
+.social__margin {
   margin-right: 93px;
 }
 .social__titel {
@@ -56,6 +56,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $primary-white-color;
+}
+.social__list--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .social__item--footer {
   fill: $primary-white-color;
@@ -79,6 +84,9 @@
 .social__item--footer:not(:last-child) {
   margin-right: 10px;
 }
+.social__icon--footer {
+  fill: #afb1b8;
+}
 .footer__social-block {
   display: flex;
   justify-content: center;
@@ -87,7 +95,7 @@
   height: 44px;
   border: none;
 }
-
+// ---------------------------------------------
 .subscribe__form {
   display: flex;
 }
