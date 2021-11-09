@@ -34,6 +34,9 @@
   }
   &__item {
     list-style: none;
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
   }
 
   &__link {
@@ -57,9 +60,6 @@
     }
   }
 }
-.nav__item:not(:last-child) {
-  margin-right: 50px;
-}
 /* почта+телефон -----------------------------*/
 .contacts {
   display: flex;
@@ -70,7 +70,11 @@
   line-height: 1.1;
   letter-spacing: 0.02em;
   list-style: none;
-
+  &__item {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
   &__link {
     display: flex;
     align-items: center;
@@ -86,9 +90,6 @@
       color: $accent-color;
     }
   }
-}
-.contacts .contacts__item + .contacts__item {
-  margin-left: 50px;
 }
 .icon__mail {
   fill: currentColor;

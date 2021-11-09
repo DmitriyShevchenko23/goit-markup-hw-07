@@ -13,6 +13,9 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
   }
   &__label {
     margin-bottom: 4px;
@@ -52,10 +55,6 @@
       border-color: $accent-color;
     }
   }
-}
-
-.form .form__wrapper + .form__wrapper {
-  margin-top: 10px;
 }
 .form__input:focus + .form__icon {
   fill: $accent-color;

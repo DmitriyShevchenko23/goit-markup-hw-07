@@ -1,5 +1,8 @@
 .benefits {
   display: flex;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
   &__bg {
     display: flex;
     justify-content: center;
@@ -30,6 +33,4 @@
     letter-spacing: 0.03em;
   }
 }
-.benefits .benefits__item + .benefits__item {
-  margin-left: 30px;
-}
+
