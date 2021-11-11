@@ -9,7 +9,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.titel {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -20,10 +20,10 @@
   text-align: center;
   color: var(--title-text-color);
 }
-.current {
+.nav__link--current {
   color: $accent-color;
 }
-.current::after {
+.nav__link--current::after {
   content: "";
 
   position: absolute;
@@ -35,6 +35,15 @@
   height: 4px;
   border-radius: 2px;
   background-color: $accent-color;
+}
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $accent-color;
+  text-decoration: none;
 }
 .button {
   min-width: 200px;

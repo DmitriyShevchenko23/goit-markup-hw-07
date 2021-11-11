@@ -19,9 +19,6 @@
     &:hover,
     &:focus {
       border-color: $accent-color;
-    }
-    &:hover,
-    &:focus {
       fill: $accent-color;
     }
   }
@@ -34,7 +31,3 @@
     }
   }
 }
-// .clients__link:hover .clients__icon,
-// .clients__link:focus .clients__icon {
-//   fill: $accent-color;
-// }

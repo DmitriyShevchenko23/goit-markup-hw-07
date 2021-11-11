@@ -9,19 +9,15 @@
 .address__margin {
   margin-right: 70px;
 }
-
-.footer__logo {
+// -----------Logo---------------------
+.logo__margin {
   display: block;
   margin-bottom: 20px;
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: $bg-white-color;
-  text-decoration: none;
 }
-
+.logo__white {
+  color: $primary-white-color;
+}
+// -------------address-----------------
 .address {
   width: 231px;
   &__list {

@@ -3,7 +3,7 @@
   &__item:not(:last-child) {
     margin-right: 30px;
   }
-  &__bg {
+  &__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,4 +33,3 @@
     letter-spacing: 0.03em;
   }
 }
-

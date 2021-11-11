@@ -10,18 +10,10 @@
     display: flex;
     align-items: center;
   }
-  &__logo {
-    font-family: raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: $title-text-color;
-    text-decoration: none;
-  }
 }
-.logo__web {
-  color: $accent-color;
+// ----------------Logo---------------------
+.logo__black {
+  color: $title-text-color;
 }
 /* навигация -----------------------------*/
 .nav {
@@ -90,19 +82,11 @@
       color: $accent-color;
     }
   }
-}
-.icon__mail {
-  fill: currentColor;
-  margin-right: 10px;
-  &::before {
-    content: "";
-  }
-}
-
-.icon__tel {
-  fill: currentColor;
-  margin-right: 10px;
-  &::before {
-    content: "";
+  .contacts__icon {
+    fill: currentColor;
+    margin-right: 10px;
+    &::before {
+      content: "";
+    }
   }
 }

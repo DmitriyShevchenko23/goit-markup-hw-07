@@ -308,7 +308,7 @@ img {
   padding-bottom: 94px;
 }
 
-.titel {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
   font-weight: 700;
@@ -319,11 +319,11 @@ img {
   color: var(--title-text-color);
 }
 
-.current {
+.nav__link--current {
   color: #2196f3;
 }
 
-.current::after {
+.nav__link--current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -333,6 +333,16 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #2196f3;
+}
+
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
 }
 
 .button {
@@ -365,18 +375,8 @@ img {
   align-items: center;
 }
 
-.header__logo {
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+.logo__black {
   color: #212121;
-  text-decoration: none;
-}
-
-.logo__web {
-  color: #2196f3;
 }
 
 /* навигация -----------------------------*/
@@ -446,25 +446,16 @@ img {
   color: #2196f3;
 }
 
-.icon__mail {
+.contacts .contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.icon__mail::before {
+.contacts .contacts__icon::before {
   content: "";
 }
 
-.icon__tel {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.icon__tel::before {
-  content: "";
-}
-
-.hero__section {
+.hero {
   padding: 200px 0;
   text-align: center;
   max-width: 1600px;
@@ -476,7 +467,7 @@ img {
   background-position: center;
 }
 
-.hero__titel {
+.hero .hero__titel {
   margin-top: 0;
   margin-bottom: 30px;
   font-weight: 900;
@@ -521,7 +512,7 @@ img {
   background-color: #ffffff;
 }
 
-.modal__icon--close {
+.modal__icon-close {
   display: flex;
   align-items: center;
   position: absolute;
@@ -536,7 +527,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__icon--close:hover, .modal__icon--close:focus {
+.modal__icon-close:hover, .modal__icon-close:focus {
   fill: #2196f3;
 }
 
@@ -660,7 +651,7 @@ img {
   margin-right: 30px;
 }
 
-.benefits__bg {
+.benefits__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -746,7 +737,7 @@ img {
   background-color: #ffffff;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
@@ -755,7 +746,7 @@ img {
   color: #212121;
 }
 
-.team__position {
+.team__text {
   margin-bottom: 16px;
   text-align: center;
   font-weight: 400;
@@ -823,9 +814,6 @@ img {
 
 .clients__link:hover, .clients__link:focus {
   border-color: #2196f3;
-}
-
-.clients__link:hover, .clients__link:focus {
   fill: #2196f3;
 }
 
@@ -853,16 +841,13 @@ img {
   margin-right: 70px;
 }
 
-.footer__logo {
+.logo__margin {
   display: block;
   margin-bottom: 20px;
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: #f5f4fa;
-  text-decoration: none;
+}
+
+.logo__white {
+  color: #ffffff;
 }
 
 .address {
