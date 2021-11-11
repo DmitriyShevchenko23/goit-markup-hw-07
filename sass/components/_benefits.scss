@@ -1,9 +1,9 @@
 .benefits {
   display: flex;
-  &__item:not(:last-child) {
+  .benefits__item:not(:last-child) {
     margin-right: 30px;
   }
-  &__wrapper {
+  .benefits__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     border-radius: 4px;
     background-color: $bg-white-color;
   }
-  &__titel {
+  .benefits__titel {
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -23,7 +23,7 @@
     letter-spacing: 0.03em;
     color: $title-text-color;
   }
-  &__text {
+  .benefits__text {
     margin-top: 0;
     margin-bottom: 0;
 

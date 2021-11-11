@@ -20,15 +20,15 @@
 // -------------address-----------------
 .address {
   width: 231px;
-  &__list {
+  .address__list {
     display: inline-block;
   }
-  &__item {
+  .address__item {
     &:not(:last-child) {
       margin-bottom: 9px;
     }
   }
-  &__link {
+  .address__link {
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -63,13 +63,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  &__item {
+  .join__item {
     fill: $primary-white-color;
     &:not(:last-child) {
       margin-right: 10px;
     }
   }
-  &__link {
+  .join__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,19 +85,19 @@
       background-color: $accent-color;
     }
   }
-  &__icon {
+  .join__icon {
     fill: #afb1b8;
   }
 }
 // ------------subsribe---------------------------------
 .subscribe {
-  &__form {
+  .subscribe__form {
     display: flex;
   }
-  &__label {
+  .subscribe__label {
     margin-right: 12px;
   }
-  &__input {
+  .subscribe__input {
     padding: 15px 0 15px 16px;
     width: 358px;
     border: 1px solid rgba(255, 255, 255, 0.3);

@@ -3,13 +3,13 @@
 }
 .jobs {
   display: flex;
-  &__item:not(:last-child) {
+  .jobs__item:not(:last-child) {
     margin-right: 30px;
   }
-  &__wrapper {
+  .jobs__wrapper {
     position: relative;
   }
-  &__label {
+  .jobs__label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,4 +28,3 @@
     text-transform: uppercase;
   }
 }
-

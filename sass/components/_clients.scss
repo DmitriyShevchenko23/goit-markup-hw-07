@@ -1,11 +1,11 @@
 .clients {
   display: flex;
-  &__item {
+  .clients__item {
     &:not(:last-child) {
       margin-right: 30px;
     }
   }
-  &__link {
+  .clients__link {
     display: flex;
     justify-content: center;
     align-items: center;

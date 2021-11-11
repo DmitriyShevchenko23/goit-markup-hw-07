@@ -3,12 +3,12 @@
   justify-content: center;
   margin-bottom: 34px;
   list-style: none;
-  &__item {
+  .buttons__item {
     &:not(:last-child) {
       margin-right: 8px;
     }
   }
-  &__filter {
+  .buttons__filter {
     border: transparent;
     padding: 6px 22px;
     border-radius: 4px;

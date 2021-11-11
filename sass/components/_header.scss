@@ -6,7 +6,7 @@
   z-index: 1;
   background-color: $primary-white-color;
   border-bottom: 1px solid #eeeeee;
-  &__container {
+  .header__container {
     display: flex;
     align-items: center;
   }
@@ -20,18 +20,18 @@
   display: flex;
   align-items: center;
 
-  &__list {
+  .nav__list {
     display: flex;
     margin-left: 93px;
   }
-  &__item {
+  .nav__item {
     list-style: none;
     &:not(:last-child) {
       margin-right: 50px;
     }
   }
 
-  &__link {
+  .nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
